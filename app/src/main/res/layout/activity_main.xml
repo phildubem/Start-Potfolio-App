@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ConLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPur">
+
+        <view
+            android:id="@+id/View1"
+            class="android.widget.ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/bg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </view>
+
+
+        <ImageView
+            android:id="@+id/ProImg"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:background="@drawable/circlebg"
+            android:contentDescription="@string/ImgDes"
+            android:elevation="10dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.907"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.104" />
+
+        <TextView
+            android:id="@+id/TxtHeader"
+            android:layout_width="293dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/goturegular"
+            android:text="@string/fullname"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/View1"
+            app:layout_constraintHorizontal_bias="0.211"
+            app:layout_constraintStart_toStartOf="@+id/View1"
+            app:layout_constraintTop_toTopOf="@+id/View1" />
+
+
+        <view
+            class="android.widget.ImageView"
+            android:layout_width="190dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="49dp"
+            android:background="@color/colorBase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.129"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+
+        //First Column Starts Here
+
+
+        <TextView
+            android:id="@+id/TxtSub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:text="@string/mobile_developer"
+            android:textColor="@color/colorGrey"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/View1"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toStartOf="@+id/View1"
+            app:layout_constraintTop_toBottomOf="@+id/TxtHeader" />
+
+        <TextView
+            android:id="@+id/TxtSub2"
+            android:layout_width="213dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/sub_text"
+            android:textColor="@color/colorBase"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+        <ImageButton
+            android:id="@+id/ImgV1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/gmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+        <TextView
+            android:id="@+id/TxtV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="49dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV1" />
+
+        <ImageButton
+            android:id="@+id/ImgV2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/fb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV1" />
+
+        <TextView
+            android:id="@+id/TxtV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/fb"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV2" />
+
+        <ImageButton
+            android:id="@+id/ImgV3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/whatsapp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV2" />
+
+        <TextView
+            android:id="@+id/TxtV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/whatsapp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV3" />
+
+        <ImageButton
+            android:id="@+id/ImgV4"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/google"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV3" />
+
+
+        //Second Column Starts Here
+
+        <TextView
+            android:id="@+id/TxtV4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/google"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV4" />
+
+        <ImageButton
+            android:id="@+id/ImgV5"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/github"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.371"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+        <TextView
+            android:id="@+id/TxtV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/github"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV5" />
+
+        <ImageButton
+            android:id="@+id/ImgV6"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/insta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.371"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV5" />
+
+        <TextView
+            android:id="@+id/TxtV6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="131dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/instagram"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV6" />
+
+        <ImageButton
+            android:id="@+id/ImgV7"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.371"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV6" />
+
+        <TextView
+            android:id="@+id/TxtV7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="147dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV7" />
+
+        <ImageButton
+            android:id="@+id/ImgV8"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/yt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.371"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV7" />
+
+
+        <TextView
+            android:id="@+id/TxtV8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="135dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/youtube"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV8" />
+
+
+        // Third Column Starts here
+
+        <ImageButton
+            android:id="@+id/ImgV9"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/slack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+        <TextView
+            android:id="@+id/TxtV9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/slack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV9" />
+
+        <ImageButton
+            android:id="@+id/ImgV10"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/twitter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV9" />
+
+        <TextView
+            android:id="@+id/TxtV10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/twitter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV10" />
+
+        <ImageButton
+            android:id="@+id/ImgV11"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/skype"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV10" />
+
+        <TextView
+            android:id="@+id/TxtV11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="235dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/skype"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV11" />
+
+        <ImageButton
+            android:id="@+id/ImgV12"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/gplay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.636"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV11" />
+
+        <TextView
+            android:id="@+id/TxtV12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="223dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/playstore"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV12" />
+
+
+        // Fourth Column Starts here
+
+        <ImageButton
+            android:id="@+id/ImgV13"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/xylus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/View1" />
+
+        <TextView
+            android:id="@+id/TxtV13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="334dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/me"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV13" />
+
+        <ImageButton
+            android:id="@+id/ImgV14"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/linkedin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV13" />
+
+        <TextView
+            android:id="@+id/TxtV14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="318dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/linkedin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV14" />
+
+        <ImageButton
+            android:id="@+id/ImgV15"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/pinterest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV14" />
+
+        <TextView
+            android:id="@+id/TxtV15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="318dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/pinterest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV15" />
+
+        <ImageButton
+            android:id="@+id/ImgV16"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/web"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TxtV15" />
+
+        <TextView
+            android:id="@+id/TxtV16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="331dp"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/web"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImgV16" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="285dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="310dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="382dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="352dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
