@@ -102,7 +102,8 @@
 
         <ImageButton
             android:id="@+id/ImgV1"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/gmail"
@@ -123,7 +124,8 @@
 
         <ImageButton
             android:id="@+id/ImgV2"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/fb"
@@ -136,7 +138,7 @@
             android:id="@+id/TxtV2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="386dp"
+            android:layout_marginStart="384dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/fb"
             app:layout_constraintStart_toStartOf="parent"
@@ -144,9 +146,10 @@
 
         <ImageButton
             android:id="@+id/ImgV3"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/whatsapp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.036"
@@ -168,9 +171,10 @@
 
         <ImageButton
             android:id="@+id/ImgV4"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/google"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.173"
@@ -189,7 +193,8 @@
 
         <ImageButton
             android:id="@+id/ImgV5"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/github"
@@ -210,7 +215,8 @@
 
         <ImageButton
             android:id="@+id/ImgV6"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/insta"
@@ -223,7 +229,7 @@
             android:id="@+id/TxtV6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="480dp"
+            android:layout_marginStart="470dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/instagram"
             app:layout_constraintStart_toStartOf="parent"
@@ -231,9 +237,10 @@
 
         <ImageButton
             android:id="@+id/ImgV7"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/line"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.316"
@@ -253,9 +260,10 @@
 
         <ImageButton
             android:id="@+id/ImgV8"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/yt"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.45"
@@ -277,7 +285,8 @@
 
         <ImageButton
             android:id="@+id/ImgV9"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/slack"
@@ -298,12 +307,13 @@
 
         <ImageButton
             android:id="@+id/ImgV10"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/twitter"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.849"
+            app:layout_constraintHorizontal_bias="0.836"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/View1" />
 
@@ -311,7 +321,7 @@
             android:id="@+id/TxtV10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="583dp"
+            android:layout_marginStart="565dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/twitter"
             app:layout_constraintStart_toStartOf="parent"
@@ -319,9 +329,10 @@
 
         <ImageButton
             android:id="@+id/ImgV11"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/skype"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.573"
@@ -332,7 +343,7 @@
             android:id="@+id/TxtV11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="402dp"
+            android:layout_marginStart="397dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/skype"
             app:layout_constraintStart_toStartOf="parent"
@@ -340,9 +351,10 @@
 
         <ImageButton
             android:id="@+id/ImgV12"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/gplay"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.709"
@@ -356,7 +368,7 @@
             android:id="@+id/TxtV12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="478dp"
+            android:layout_marginStart="472dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/playstore"
             app:layout_constraintStart_toStartOf="parent"
@@ -364,7 +376,8 @@
 
         <ImageButton
             android:id="@+id/ImgV13"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/xylus"
@@ -385,7 +398,8 @@
 
         <ImageButton
             android:id="@+id/ImgV14"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:src="@drawable/linkedin"
@@ -398,7 +412,7 @@
             android:id="@+id/TxtV14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="654dp"
+            android:layout_marginStart="645dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/linkedin"
             app:layout_constraintStart_toStartOf="parent"
@@ -406,12 +420,13 @@
 
         <ImageButton
             android:id="@+id/ImgV15"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/pinterest"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.849"
+            app:layout_constraintHorizontal_bias="0.836"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/TxtV10" />
 
@@ -419,7 +434,7 @@
             android:id="@+id/TxtV15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="575dp"
+            android:layout_marginStart="561dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/pinterest"
             app:layout_constraintStart_toStartOf="parent"
@@ -427,9 +442,10 @@
 
         <ImageButton
             android:id="@+id/ImgV16"
-            android:layout_width="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="18dp"
             android:src="@drawable/web"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.963"
@@ -440,7 +456,7 @@
             android:id="@+id/TxtV16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="669dp"
+            android:layout_marginStart="657dp"
             android:fontFamily="@font/robotoregular"
             android:text="@string/web"
             app:layout_constraintStart_toStartOf="parent"
