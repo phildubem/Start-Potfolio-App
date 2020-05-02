@@ -14,6 +14,7 @@
         android:layout_height="match_parent"
         android:background="@color/colorPur">
 
+
         <view
             android:id="@+id/View1"
             class="android.widget.ImageView"
@@ -34,7 +35,6 @@
             android:layout_height="135dp"
             android:background="@drawable/circlebg"
             android:contentDescription="@string/ImgDes"
-            android:elevation="10dp"
             android:padding="8dp"
             android:scaleType="centerCrop"
             android:src="@drawable/avi"
