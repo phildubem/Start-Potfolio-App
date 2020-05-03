@@ -2,6 +2,7 @@
     <string name="app_name">StartPortfolioApp</string>
     <string name="ImgDes">Avi</string>
     <string name="email">Email</string>
+    <string name="emailstrn">you@example.com</string>
     <string name="fb">Facebook</string>
     <string name="whatsapp">Whatsapp</string>
     <string name="github">Github</string>
