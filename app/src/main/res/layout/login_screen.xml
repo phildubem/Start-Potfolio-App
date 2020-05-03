@@ -10,7 +10,9 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -28,6 +30,7 @@
                 />
 
             <LinearLayout
+                android:id="@+id/linlay1"
                 android:layout_below="@id/txV1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -39,16 +42,18 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/txV2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
                         android:text="Username"
-                        android:layout_marginTop="20dp"
-                        android:textAllCaps="true"
+                        android:layout_marginTop="25dp"
+                        android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="15sp"/>
+                        android:textSize="18sp"/>
 
                     <EditText
+                        android:id="@+id/et1"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:background="@drawable/txt_area"
@@ -63,21 +68,24 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp">
 
                     <TextView
+                        android:id="@+id/txV3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
                         android:text="Password"
                         android:layout_marginTop="15dp"
-                        android:textAllCaps="true"
+                        android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="15sp"/>
+                        android:textSize="18sp"/>
 
                     <EditText
+                        android:id="@+id/et2"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp"
+                         android:layout_height="40dp"
                         android:background="@drawable/txt_area"
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="15dp"
@@ -88,6 +96,21 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linlay1"
+                android:layout_marginTop="50dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_bg"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="18sp"
+                android:paddingRight="70dp"
+                android:paddingLeft="70dp"
+                android:layout_centerHorizontal="true"
+                />
 
         </RelativeLayout>
 
