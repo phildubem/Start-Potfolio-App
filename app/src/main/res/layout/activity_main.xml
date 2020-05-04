@@ -61,6 +61,7 @@
 
 
         <view
+            android:id="@+id/view"
             class="android.widget.ImageView"
             android:layout_width="190dp"
             android:layout_height="1dp"
@@ -93,7 +94,7 @@
             android:layout_width="213dp"
             android:layout_height="52dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/robotoregular"
+            android:fontFamily="@font/robotolight"
             android:text="@string/sub_text"
             android:textColor="@color/colorBase"
             android:textSize="12sp"
@@ -113,7 +114,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.096"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/View1" />
+            app:layout_constraintTop_toBottomOf="@+id/View1"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV1"
@@ -135,7 +137,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.096"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV1" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV1"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV2"
@@ -157,7 +160,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.096"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV2" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV2"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV3"
@@ -179,7 +183,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.096"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV3" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV3"
+            tools:ignore="ContentDescription" />
 
 
         //Second Column Starts Here
@@ -204,7 +209,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.371"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/View1" />
+            app:layout_constraintTop_toBottomOf="@+id/View1"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV5"
@@ -226,7 +232,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.371"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV5" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV5"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV6"
@@ -248,7 +255,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.371"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV6" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV6"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV7"
@@ -270,7 +278,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.371"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV7" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV7"
+            tools:ignore="ContentDescription" />
 
 
         <TextView
@@ -296,7 +305,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.636"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/View1" />
+            app:layout_constraintTop_toBottomOf="@+id/View1"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV9"
@@ -318,7 +328,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.636"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV9" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV9"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV10"
@@ -340,7 +351,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.636"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV10" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV10"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV11"
@@ -362,7 +374,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.636"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV11" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV11"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV12"
@@ -387,7 +400,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.91"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/View1" />
+            app:layout_constraintTop_toBottomOf="@+id/View1"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV13"
@@ -409,7 +423,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.91"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV13" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV13"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV14"
@@ -431,7 +446,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.91"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV14" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV14"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV15"
@@ -453,7 +469,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.91"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/TxtV15" />
+            app:layout_constraintTop_toBottomOf="@+id/TxtV15"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/TxtV16"
@@ -492,6 +509,20 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintGuide_begin="352dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/robotoregular"
+            android:text=""
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

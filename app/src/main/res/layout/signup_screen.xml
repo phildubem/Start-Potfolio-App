@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg3"
-    tools:context=".login">
+    tools:context=".SignUp">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
+        android:layout_marginRight="30dp"
+        tools:ignore="UselessParent">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/txV1"
+                android:id="@+id/txVS1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sign up"
@@ -27,23 +24,23 @@
                 android:textColor="@color/colorWhite"
                 android:fontFamily="sans-serif-medium"
                 android:textSize="30sp"
-                />
+                tools:ignore="HardcodedText" />
 
             <LinearLayout
-                android:id="@+id/linlay1"
-                android:layout_below="@id/txV1"
+                android:id="@+id/linSin1"
+                android:layout_below="@id/txVS1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:id="@+id/linlay2"
+                    android:id="@+id/linSin2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/txV2"
+                        android:id="@+id/txVS2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -51,10 +48,11 @@
                         android:layout_marginTop="25dp"
                         android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
 
                     <EditText
-                        android:id="@+id/et1"
+                        android:id="@+id/etS1"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:inputType="text"
@@ -63,19 +61,20 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/colorWhite"/>
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="Autofill,LabelFor"/>
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linlay3"
+                    android:id="@+id/linSin3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginTop="12dp">
 
                     <TextView
-                        android:id="@+id/txV3"
+                        android:id="@+id/txVS3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -83,10 +82,11 @@
                         android:layout_marginTop="15dp"
                         android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
 
                     <EditText
-                        android:id="@+id/et2"
+                        android:id="@+id/etS2"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:inputType="textEmailAddress"
@@ -95,19 +95,20 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/colorWhite"/>
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="Autofill,LabelFor" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linlay4"
+                    android:id="@+id/linSin4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginTop="12dp">
 
                     <TextView
-                        android:id="@+id/txV4"
+                        android:id="@+id/txVS4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -115,10 +116,11 @@
                         android:layout_marginTop="15dp"
                         android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
 
                     <EditText
-                        android:id="@+id/et3"
+                        android:id="@+id/etS3"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:inputType="phone"
@@ -127,18 +129,20 @@
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/colorWhite"/>
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="Autofill,LabelFor" />
 
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/linSin5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginTop="12dp">
 
                     <TextView
-                        android:id="@+id/txV5"
+                        android:id="@+id/txVS5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-light"
@@ -146,27 +150,29 @@
                         android:layout_marginTop="15dp"
                         android:textAllCaps="false"
                         android:textColor="@color/colorWhite"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
 
                     <EditText
-                        android:id="@+id/et4"
+                        android:id="@+id/etS4"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-                        android:inputType="textCapCharacters"
+                        android:inputType="textPassword"
                         android:background="@drawable/txt_area"
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="15dp"
                         android:paddingRight="15dp"
                         android:layout_marginTop="5dp"
-                        android:textColor="@color/colorWhite"/>
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="Autofill,LabelFor" />
 
                 </LinearLayout>
 
             </LinearLayout>
             <Button
-                android:id="@+id/btn1"
-                android:layout_below="@id/linlay1"
+                android:id="@+id/btnSin"
+                android:layout_below="@id/linSin1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
@@ -178,40 +184,10 @@
                 android:paddingRight="50dp"
                 android:paddingLeft="50dp"
                 android:layout_centerHorizontal="true"
-                />
-
-            <TextView
-                android:id="@+id/txV6"
-                android:layout_below="@id/btn1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:text="OR"
-                android:layout_marginTop="15dp"
-                android:textAllCaps="false"
-                android:textColor="@color/colorWhite"
-                android:textSize="18sp"
-                android:layout_centerHorizontal="true"/>
-
-            <Button
-                android:id="@+id/btn2"
-                android:layout_below="@id/btn1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:text="Login"
-                android:textAllCaps="false"
-                android:background="@drawable/btn_bg1"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="@color/colorWhite"
-                android:textSize="16sp"
-                android:paddingRight="40dp"
-                android:paddingLeft="40dp"
-                android:layout_centerHorizontal="true"
-                />
+                tools:ignore="HardcodedText" />
 
 
-        </RelativeLayout>
+
 
 
     </RelativeLayout>

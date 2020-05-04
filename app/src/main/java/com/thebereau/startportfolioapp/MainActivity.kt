@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main)
+
 
 
         Log.d("OnCreate", "The activity is in onCreate state")
@@ -74,7 +75,7 @@ class MainActivity : AppCompatActivity() {
 
 
             } catch (e: PackageManager.NameNotFoundException) {
-                Log.e("WS", "ERROR_OPEN_MESSANGER"+e.toString());
+                Log.e("WS", "ERROR_OPEN_MESSANGER"+e.toString())
             }
         }
 

@@ -4,18 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg3"
-    tools:context=".login">
+    tools:context=".LoginActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
+        android:layout_marginRight="30dp"
+        tools:ignore="UselessParent">
 
 
         <TextView
-            android:id="@+id/txV1"
+            android:id="@+id/txVL1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -23,11 +24,11 @@
             android:textColor="@color/colorWhite"
             android:fontFamily="sans-serif-medium"
             android:textSize="30sp"
-            />
+            tools:ignore="HardcodedText" />
 
         <LinearLayout
-            android:id="@+id/linlay1"
-            android:layout_below="@id/txV1"
+            android:id="@+id/linLog1"
+            android:layout_below="@id/txVL1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -39,7 +40,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/txV2"
+                    android:id="@+id/txVL2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
@@ -47,10 +48,11 @@
                     android:layout_marginTop="25dp"
                     android:textAllCaps="false"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText" />
 
                 <EditText
-                    android:id="@+id/et1"
+                    android:id="@+id/etL1"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:inputType="textEmailAddress"
@@ -60,18 +62,20 @@
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
                     android:layout_marginTop="5dp"
-                    android:textColor="@color/colorWhite"/>
+                    android:textColor="@color/colorWhite"
+                    tools:ignore="LabelFor" />
 
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linLog2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginTop="12dp">
 
                 <TextView
-                    android:id="@+id/txV3"
+                    android:id="@+id/txVL3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
@@ -79,13 +83,13 @@
                     android:layout_marginTop="15dp"
                     android:textAllCaps="false"
                     android:textColor="@color/colorWhite"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText" />
 
                 <EditText
-                    android:id="@+id/et2"
+                    android:id="@+id/etL2"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:autofillHints="x..."
                     android:inputType="textCapCharacters"
                     android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
                     android:background="@drawable/txt_area"
@@ -93,52 +97,29 @@
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
                     android:layout_marginTop="5dp"
-                    android:textColor="@color/colorWhite"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_below="@id/linlay2">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:layout_marginEnd="55dp"
-                    android:layout_marginStart="5dp"
-                    android:text="Sign up"
-                    android:textAllCaps="false"
-                    android:background="@drawable/btn_bg1"
-                    android:fontFamily="sans-serif-medium"
                     android:textColor="@color/colorWhite"
-                    android:textSize="16sp"
-                    android:paddingRight="40dp"
-                    android:paddingLeft="40dp"
-                    android:layout_centerHorizontal="true"
-                    />
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
-                    android:text="Login"
-                    android:textAllCaps="false"
-                    android:background="@drawable/btn_bg"
-                    android:fontFamily="sans-serif-medium"
-                    android:textSize="16sp"
-                    android:paddingRight="50dp"
-                    android:paddingLeft="50dp"
-                    android:layout_centerHorizontal="true"
-                    />
+                    tools:ignore="Autofill,LabelFor" />
 
             </LinearLayout>
+
 
         </LinearLayout>
 
 
+        <Button
+            android:layout_below="@id/linLog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" />
 
 
 
