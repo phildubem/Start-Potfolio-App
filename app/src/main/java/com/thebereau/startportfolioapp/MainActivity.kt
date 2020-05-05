@@ -11,10 +11,16 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var  prefProv: PrefProv
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        prefProv = PrefProv(applicationContext)
+
+        maintxt.setText(prefProv.getString(Constants.EMAIL))
 
 
 

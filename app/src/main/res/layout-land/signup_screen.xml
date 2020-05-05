@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".SignUp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="UselessParent">
+
+
+            <TextView
+                android:id="@+id/txVS1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/linSin1"
+                android:layout_below="@id/txVS1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linSin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txVS2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Full Name"
+                        android:layout_marginTop="3dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/etS1"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:inputType="text"
+                        android:background="@drawable/txt_area"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="Autofill,LabelFor"/>
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/txVS3"
+            android:layout_below="@id/linSin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Email"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etS2"
+            android:layout_below="@+id/txVS3"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/txt_area"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorWhite"
+            tools:ignore="Autofill,LabelFor" />
+
+
+        <TextView
+            android:id="@+id/txVS4"
+            android:layout_marginStart="400dp"
+            android:layout_below="@id/linSin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Phone"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etS3"
+            android:layout_marginStart="400dp"
+            android:layout_below="@+id/txVS4"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:background="@drawable/txt_area"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorWhite"
+            tools:ignore="Autofill,LabelFor" />
+
+        <TextView
+            android:id="@+id/txVS5"
+            android:layout_below="@+id/etS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Password"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etS4"
+            android:layout_below="@+id/txVS5"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            android:inputType="textPassword"
+            android:background="@drawable/txt_area"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorWhite"
+            tools:ignore="Autofill,LabelFor" />
+
+            <Button
+                android:id="@+id/btnSin"
+                android:layout_below="@+id/etS3"
+                android:layout_marginStart="400dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Sign up"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_bg1"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp"
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                tools:ignore="HardcodedText" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
